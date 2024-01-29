@@ -16,30 +16,16 @@ services:
     tty: true        # docker run -t
     ports:
       - "5037:5037"
-#    expose:
-#      - "5037"
     extra_hosts:
       - "host.docker.internal:host-gateway"
     restart: always
 
   sender:
-    container_name: ftp_sender
+    container_name: screen_sender
     build: .
     env_file: .env
-    command: python3 ftp_sender.py
+    command: python3 screen_sender.py
     volumes:
-      - ./logs/ftp_sender:/app/logs
+      - ./logs/screen_sender:/app/logs
       - ./screenshots:/app/screenshots
     restart: always
-
-#  sender1:
-#    container_name: ftp_sender1
-#    build: .
-#    env_file: .env
-#    command: python3 ftp_sender_fake.py
-#    volumes:
-#      - ./logs/ftp_sender:/app/logs
-#      - ./screenshots:/app/screenshots
-#    restart: always
-
-

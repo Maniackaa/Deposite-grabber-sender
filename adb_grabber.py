@@ -43,6 +43,7 @@ def main():
         if adb_devices:
             adb_device = adb_devices[0]
             device_name = adb_device.info.get('serialno')
+            logger.info(f'Подключено: {device_name}')
         else:
             time.sleep(5)
             continue
