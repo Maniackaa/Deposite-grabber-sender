@@ -76,6 +76,7 @@ class ADB:
     SCREEN_FOLDER: str
     WORKER: str
     ENDPOINT: str
+    PHONES: list
 
 
 @dataclass
@@ -98,6 +99,8 @@ def load_config(path=None) -> Config:
         adb=ADB(SCREEN_FOLDER=os.getenv('SCREEN_FOLDER'),
                 WORKER=os.getenv('WORKER'),
                 ENDPOINT=os.getenv('ENDPOINT'),
+                PHONES=os.getenv('PHONES').split(','),
+
                 ),
     )
 
@@ -105,7 +108,7 @@ def load_config(path=None) -> Config:
 load_dotenv()
 
 conf = load_config()
-
+print(conf)
 
 def get_my_loggers():
     import logging.config
