@@ -75,8 +75,12 @@ LOGGING_CONFIG = {
 class ADB:
     SCREEN_FOLDER: str
     WORKER: str
-    ENDPOINT: str
-    PHONES: list
+    M10_ENDPOINT: str
+    ATB_ENDPOINT: str
+    OCR_ENDPOINT: str
+    M10_PHONES: list
+    ATB_PHONES: list
+    ATB_NAMES: list
 
 
 @dataclass
@@ -98,9 +102,12 @@ def load_config(path=None) -> Config:
         #                   ),
         adb=ADB(SCREEN_FOLDER=os.getenv('SCREEN_FOLDER'),
                 WORKER=os.getenv('WORKER'),
-                ENDPOINT=os.getenv('ENDPOINT'),
-                PHONES=os.getenv('PHONES').split(','),
-
+                M10_ENDPOINT=os.getenv('M10_ENDPOINT'),
+                ATB_ENDPOINT=os.getenv('ATB_ENDPOINT'),
+                OCR_ENDPOINT=os.getenv('OCR_ENDPOINT'),
+                M10_PHONES=os.getenv('M10_PHONES').split(','),
+                ATB_PHONES=os.getenv('ATB_PHONES').split(','),
+                ATB_NAMES=os.getenv('ATB_NAMES').split(','),
                 ),
     )
 

@@ -70,3 +70,79 @@ Traceback (most recent call last):
   File "D:\Dev\Freelance\Project-deposite\venv\Lib\site-packages\requests\adapters.py", line 519, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /screen/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B396D9A850>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+2024-02-26 16:53:30,756 - ERROR - main: 57 - Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:53:31,564 - ERROR - main: 57 - Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:53:32,354 - ERROR - main: 57 - Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:56:03,142 - ERROR - main: 57 - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-26 16:56:03,937 - ERROR - main: 57 - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-26 16:56:04,717 - ERROR - main: 57 - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 44, in main
+    print(json.loads(pay))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-26 17:21:53,241 - ERROR - main: 58 - a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 45, in main
+    print(pickle.loads(pay))
+TypeError: a bytes-like object is required, not 'str'
+2024-02-26 17:21:54,047 - ERROR - main: 58 - a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "D:\Dev\Freelance\Deposite-grabber-sender\atb_screen_sender.py", line 45, in main
+    print(pickle.loads(pay))
+TypeError: a bytes-like object is required, not 'str'

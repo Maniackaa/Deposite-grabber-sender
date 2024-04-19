@@ -11,7 +11,7 @@ logger, *other = get_my_loggers()
 BASE_DIR = Path(__file__).resolve().parent
 
 SCREEN_FOLDER = Path(conf.adb.SCREEN_FOLDER)
-TARGET_DIR = BASE_DIR / 'screenshots'
+TARGET_DIR = BASE_DIR / 'adb_screenshots'
 
 
 def get_file_list(directory, adb_device):
@@ -40,12 +40,15 @@ def main():
         # adb_client = AdbClient(host="127.0.0.1", port=5037)
         adb_client = AdbClient(host=os.getenv('HOST'), port=5037)
         adb_devices = adb_client.device_list()
-        PHONES = conf.adb.M10_PHONES
+        PHONES = conf.adb.ATB_PHONES
+        ATB_NAMES = conf.adb.ATB_NAMES
         for adb_device in adb_devices:
             device_name = adb_device.info.get('serialno')
             logger.info(f'Подключено: {device_name}')
             if device_name in PHONES:
-                logger.info('Телефон из списка M10')
+                for num, phone in enumerate(PHONES):
+                    phone_name = ATB_NAMES[num]
+                    logger.info(f'Телефон из списка ATB: {phone_name}')
                 try:
                     data = get_file_list(SCREEN_FOLDER.as_posix(), adb_device)
                     logger.debug(f'Количество скринов: {len(data)}')
@@ -67,6 +70,7 @@ def main():
                     time.sleep(5)
             else:
                 time.sleep(5)
+
 
 if __name__ == '__main__':
     main()

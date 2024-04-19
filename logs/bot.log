@@ -2914,3 +2914,469 @@ FileNotFoundError: [Errno 2] No such file or directory: 'D:\\storage\\self\\prim
 2024-02-26 14:34:50,096 - INFO - main: 48 - Телефон из списка
 2024-02-26 14:34:50,135 - DEBUG - main: 51 - Количество скринов: 0
 2024-02-26 14:34:50,135 - DEBUG - main: 52 - []
+2024-02-26 14:55:23,481 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 14:55:23,481 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 14:55:25,050 - DEBUG - main: 39 - 200
+2024-02-26 14:55:25,050 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 14:55:25,051 - DEBUG - main: 41 - Время распознавания 1.5702435999992304
+2024-02-26 14:55:25,066 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:25,066 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 14:55:25,770 - DEBUG - main: 39 - 200
+2024-02-26 14:55:25,770 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 14:55:25,770 - DEBUG - main: 41 - Время распознавания 0.7040445000166073
+2024-02-26 14:55:25,785 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:25,785 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 14:55:26,441 - DEBUG - main: 39 - 200
+2024-02-26 14:55:26,442 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 14:55:26,442 - DEBUG - main: 41 - Время распознавания 0.6565518000279553
+2024-02-26 14:55:26,456 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:26,456 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 14:55:27,142 - DEBUG - main: 39 - 200
+2024-02-26 14:55:27,143 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 14:55:27,143 - DEBUG - main: 41 - Время распознавания 0.6862441999837756
+2024-02-26 14:55:27,157 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:27,157 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 14:55:27,798 - DEBUG - main: 39 - 200
+2024-02-26 14:55:27,798 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 14:55:27,798 - DEBUG - main: 41 - Время распознавания 0.64041079999879
+2024-02-26 14:55:27,821 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:27,821 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 14:55:28,516 - DEBUG - main: 39 - 200
+2024-02-26 14:55:28,516 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 14:55:28,517 - DEBUG - main: 41 - Время распознавания 0.6961353999795392
+2024-02-26 14:55:28,530 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:28,530 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 14:55:29,193 - DEBUG - main: 39 - 200
+2024-02-26 14:55:29,193 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 14:55:29,194 - DEBUG - main: 41 - Время распознавания 0.6638039000099525
+2024-02-26 14:55:29,202 - DEBUG - main: 46 - Скрин удален
+2024-02-26 14:55:29,202 - DEBUG - main: 56 - Общее время: 5.7215318999951705
+2024-02-26 14:55:29,202 - DEBUG - main: 57 - ----
+2024-02-26 14:55:29,707 - DEBUG - main: 23 - []
+2024-02-26 14:55:29,707 - DEBUG - main: 56 - Общее время: 0.0005492999916896224
+2024-02-26 14:55:29,707 - DEBUG - main: 57 - ----
+2024-02-26 14:55:30,217 - DEBUG - main: 23 - []
+2024-02-26 14:55:30,217 - DEBUG - main: 56 - Общее время: 0.0005572999943979084
+2024-02-26 14:55:30,217 - DEBUG - main: 57 - ----
+2024-02-26 14:55:30,729 - DEBUG - main: 23 - []
+2024-02-26 14:55:30,729 - DEBUG - main: 56 - Общее время: 0.0005197999998927116
+2024-02-26 14:55:30,729 - DEBUG - main: 57 - ----
+2024-02-26 14:55:31,242 - DEBUG - main: 23 - []
+2024-02-26 14:55:31,242 - DEBUG - main: 56 - Общее время: 0.0005103999865241349
+2024-02-26 14:55:31,242 - DEBUG - main: 57 - ----
+2024-02-26 14:55:31,754 - DEBUG - main: 23 - []
+2024-02-26 14:55:31,754 - DEBUG - main: 56 - Общее время: 0.000498599954880774
+2024-02-26 14:55:31,754 - DEBUG - main: 57 - ----
+2024-02-26 14:55:32,265 - DEBUG - main: 23 - []
+2024-02-26 14:55:32,265 - DEBUG - main: 56 - Общее время: 0.0004428999964147806
+2024-02-26 14:55:32,265 - DEBUG - main: 57 - ----
+2024-02-26 14:55:32,777 - DEBUG - main: 23 - []
+2024-02-26 14:55:32,777 - DEBUG - main: 56 - Общее время: 0.000553899968508631
+2024-02-26 14:55:32,777 - DEBUG - main: 57 - ----
+2024-02-26 14:55:33,290 - DEBUG - main: 23 - []
+2024-02-26 14:55:33,290 - DEBUG - main: 56 - Общее время: 0.00048429996240884066
+2024-02-26 14:55:33,290 - DEBUG - main: 57 - ----
+2024-02-26 14:55:33,801 - DEBUG - main: 23 - []
+2024-02-26 14:55:33,801 - DEBUG - main: 56 - Общее время: 0.0004605999565683305
+2024-02-26 14:55:33,801 - DEBUG - main: 57 - ----
+2024-02-26 14:55:34,311 - DEBUG - main: 23 - []
+2024-02-26 14:55:34,311 - DEBUG - main: 56 - Общее время: 0.00047720002476125956
+2024-02-26 14:55:34,311 - DEBUG - main: 57 - ----
+2024-02-26 14:55:34,826 - DEBUG - main: 23 - []
+2024-02-26 14:55:34,826 - DEBUG - main: 56 - Общее время: 0.00040710001485422254
+2024-02-26 14:55:34,826 - DEBUG - main: 57 - ----
+2024-02-26 16:47:01,898 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:47:01,899 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:47:03,194 - DEBUG - main: 39 - 200
+2024-02-26 16:47:03,194 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:47:03,195 - DEBUG - main: 41 - Время распознавания 1.2962539999862202
+2024-02-26 16:47:03,235 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:47:03,912 - DEBUG - main: 39 - 200
+2024-02-26 16:47:03,912 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:47:03,913 - DEBUG - main: 41 - Время распознавания 0.6777892999816686
+2024-02-26 16:47:03,938 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:47:04,622 - DEBUG - main: 39 - 200
+2024-02-26 16:47:04,623 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:47:04,623 - DEBUG - main: 41 - Время распознавания 0.6844089000369422
+2024-02-26 16:47:04,648 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:47:05,306 - DEBUG - main: 39 - 200
+2024-02-26 16:47:05,306 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:47:05,306 - DEBUG - main: 41 - Время распознавания 0.6588532999739982
+2024-02-26 16:47:06,085 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:47:06,789 - DEBUG - main: 39 - 200
+2024-02-26 16:47:06,789 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:47:06,789 - DEBUG - main: 41 - Время распознавания 0.704516900004819
+2024-02-26 16:47:06,815 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:47:07,514 - DEBUG - main: 39 - 200
+2024-02-26 16:47:07,515 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 16:47:07,515 - DEBUG - main: 41 - Время распознавания 0.6999119999818504
+2024-02-26 16:47:07,540 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 16:47:08,186 - DEBUG - main: 39 - 200
+2024-02-26 16:47:08,186 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 16:47:08,186 - DEBUG - main: 41 - Время распознавания 0.6463127000024542
+2024-02-26 16:47:08,212 - DEBUG - main: 57 - Общее время: 6.314214000012726
+2024-02-26 16:47:08,212 - DEBUG - main: 58 - ----
+2024-02-26 16:47:08,723 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:47:08,723 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:47:09,365 - DEBUG - main: 39 - 200
+2024-02-26 16:47:09,366 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:47:09,366 - DEBUG - main: 41 - Время распознавания 0.6425653999904171
+2024-02-26 16:47:09,394 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:47:10,069 - DEBUG - main: 39 - 200
+2024-02-26 16:47:10,069 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:47:10,069 - DEBUG - main: 41 - Время распознавания 0.6758888000040315
+2024-02-26 16:47:10,094 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:47:10,774 - DEBUG - main: 39 - 200
+2024-02-26 16:47:10,774 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:47:10,774 - DEBUG - main: 41 - Время распознавания 0.6801759999943897
+2024-02-26 16:47:10,799 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:47:11,474 - DEBUG - main: 39 - 200
+2024-02-26 16:47:11,474 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:47:11,475 - DEBUG - main: 41 - Время распознавания 0.674995300010778
+2024-02-26 16:47:11,499 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:47:12,737 - DEBUG - main: 39 - 200
+2024-02-26 16:47:12,737 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:47:12,738 - DEBUG - main: 41 - Время распознавания 1.238102900038939
+2024-02-26 16:47:12,769 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:47:13,478 - DEBUG - main: 39 - 200
+2024-02-26 16:47:13,478 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 16:47:13,478 - DEBUG - main: 41 - Время распознавания 0.7093072999850847
+2024-02-26 16:47:13,503 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 16:47:14,230 - DEBUG - main: 39 - 200
+2024-02-26 16:47:14,231 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 16:47:14,231 - DEBUG - main: 41 - Время распознавания 0.7281485999701545
+2024-02-26 16:47:14,261 - DEBUG - main: 57 - Общее время: 5.537928300036583
+2024-02-26 16:47:14,261 - DEBUG - main: 58 - ----
+2024-02-26 16:47:14,763 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:47:14,763 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:47:15,420 - DEBUG - main: 39 - 200
+2024-02-26 16:47:15,420 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:47:15,420 - DEBUG - main: 41 - Время распознавания 0.6571361000533216
+2024-02-26 16:47:15,446 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:47:16,126 - DEBUG - main: 39 - 200
+2024-02-26 16:47:16,126 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:47:16,126 - DEBUG - main: 41 - Время распознавания 0.6804953999817371
+2024-02-26 16:47:16,153 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:47:16,820 - DEBUG - main: 39 - 200
+2024-02-26 16:47:16,821 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:47:16,821 - DEBUG - main: 41 - Время распознавания 0.6687497000093572
+2024-02-26 16:47:16,849 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:47:17,507 - DEBUG - main: 39 - 200
+2024-02-26 16:47:17,507 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:47:17,507 - DEBUG - main: 41 - Время распознавания 0.6582277999841608
+2024-02-26 16:47:17,533 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:47:18,203 - DEBUG - main: 39 - 200
+2024-02-26 16:47:18,204 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:47:18,204 - DEBUG - main: 41 - Время распознавания 0.6711683999747038
+2024-02-26 16:47:18,230 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:51:22,338 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:51:22,338 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:51:23,630 - DEBUG - main: 39 - 200
+2024-02-26 16:51:23,631 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:51:23,631 - DEBUG - main: 41 - Время распознавания 1.29245379997883
+2024-02-26 16:51:23,639 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:51:24,312 - DEBUG - main: 39 - 200
+2024-02-26 16:51:24,312 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:51:24,312 - DEBUG - main: 41 - Время распознавания 0.6734362000133842
+2024-02-26 16:51:24,318 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:51:24,980 - DEBUG - main: 39 - 200
+2024-02-26 16:51:24,980 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:51:24,980 - DEBUG - main: 41 - Время распознавания 0.6619964999845251
+2024-02-26 16:51:24,986 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:51:25,655 - DEBUG - main: 39 - 200
+2024-02-26 16:51:25,655 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:51:25,655 - DEBUG - main: 41 - Время распознавания 0.6690419999649748
+2024-02-26 16:51:25,661 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:51:26,323 - DEBUG - main: 39 - 200
+2024-02-26 16:51:26,324 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:51:26,324 - DEBUG - main: 41 - Время распознавания 0.6628753999830224
+2024-02-26 16:51:26,341 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:51:27,039 - DEBUG - main: 39 - 200
+2024-02-26 16:51:27,039 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 16:51:27,040 - DEBUG - main: 41 - Время распознавания 0.6984228999936022
+2024-02-26 16:51:27,045 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 16:51:27,708 - DEBUG - main: 39 - 200
+2024-02-26 16:51:27,709 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 16:51:27,709 - DEBUG - main: 41 - Время распознавания 0.6639027000055648
+2024-02-26 16:51:27,715 - DEBUG - main: 57 - Общее время: 5.376873700006399
+2024-02-26 16:51:27,715 - DEBUG - main: 58 - ----
+2024-02-26 16:51:28,223 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:51:28,223 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:51:28,961 - DEBUG - main: 39 - 200
+2024-02-26 16:51:28,961 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:51:28,962 - DEBUG - main: 41 - Время распознавания 0.7379798000329174
+2024-02-26 16:51:29,624 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:51:30,323 - DEBUG - main: 39 - 200
+2024-02-26 16:51:30,324 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:51:30,324 - DEBUG - main: 41 - Время распознавания 0.7005082000396214
+2024-02-26 16:51:30,330 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:51:31,252 - DEBUG - main: 39 - 200
+2024-02-26 16:51:31,252 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:51:31,252 - DEBUG - main: 41 - Время распознавания 0.9228895999840461
+2024-02-26 16:51:31,259 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:51:31,911 - DEBUG - main: 39 - 200
+2024-02-26 16:51:31,911 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:51:31,911 - DEBUG - main: 41 - Время распознавания 0.6521942999679595
+2024-02-26 16:51:31,917 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:51:32,561 - DEBUG - main: 39 - 200
+2024-02-26 16:51:32,562 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:51:32,562 - DEBUG - main: 41 - Время распознавания 0.6452032999950461
+2024-02-26 16:51:32,568 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:51:33,298 - DEBUG - main: 39 - 200
+2024-02-26 16:51:33,299 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 16:51:33,299 - DEBUG - main: 41 - Время распознавания 0.7309974999516271
+2024-02-26 16:51:33,306 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 16:51:34,241 - DEBUG - main: 39 - 200
+2024-02-26 16:51:34,242 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 16:51:34,242 - DEBUG - main: 41 - Время распознавания 0.9361443999805488
+2024-02-26 16:51:34,249 - DEBUG - main: 57 - Общее время: 6.026349899999332
+2024-02-26 16:51:34,249 - DEBUG - main: 58 - ----
+2024-02-26 16:51:34,760 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:51:34,760 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:51:36,101 - DEBUG - main: 39 - 200
+2024-02-26 16:51:36,101 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:51:36,101 - DEBUG - main: 41 - Время распознавания 1.3412377000204287
+2024-02-26 16:51:36,109 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:51:36,805 - DEBUG - main: 39 - 200
+2024-02-26 16:51:36,806 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:51:36,806 - DEBUG - main: 41 - Время распознавания 0.6971503000240773
+2024-02-26 16:51:36,812 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:51:37,479 - DEBUG - main: 39 - 200
+2024-02-26 16:51:37,480 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:51:37,480 - DEBUG - main: 41 - Время распознавания 0.6678768999991007
+2024-02-26 16:51:37,486 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:51:38,178 - DEBUG - main: 39 - 200
+2024-02-26 16:51:38,178 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 28), 'bank_card': 'Millién top up', 'pay': 2.0, 'balance': 5.0}
+2024-02-26 16:51:38,178 - DEBUG - main: 41 - Время распознавания 0.6922894999734126
+2024-02-26 16:51:38,185 - DEBUG - main: 34 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 16:51:38,825 - DEBUG - main: 39 - 200
+2024-02-26 16:51:38,826 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 12, 58), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 3.0}
+2024-02-26 16:51:38,826 - DEBUG - main: 41 - Время распознавания 0.6410318000125699
+2024-02-26 16:51:38,833 - DEBUG - main: 34 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 16:51:39,529 - DEBUG - main: 39 - 200
+2024-02-26 16:51:39,529 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 5, 14, 51), 'bank_card': '409858******1820', 'pay': -25.0, 'balance': 0.0}
+2024-02-26 16:51:39,530 - DEBUG - main: 41 - Время распознавания 0.6969611000386067
+2024-02-26 16:51:39,537 - DEBUG - main: 34 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 16:51:40,192 - DEBUG - main: 39 - 200
+2024-02-26 16:51:40,192 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2023, 12, 1, 15, 59), 'bank_card': 'IBA MOBILE', 'pay': 25.0, 'balance': 25.0}
+2024-02-26 16:51:40,192 - DEBUG - main: 41 - Время распознавания 0.6551402999903075
+2024-02-26 16:51:40,198 - DEBUG - main: 57 - Общее время: 5.4384980000322685
+2024-02-26 16:51:40,198 - DEBUG - main: 58 - ----
+2024-02-26 16:51:40,702 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:51:40,702 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:51:41,358 - DEBUG - main: 39 - 200
+2024-02-26 16:51:41,358 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:51:41,358 - DEBUG - main: 41 - Время распознавания 0.6559216000023298
+2024-02-26 16:51:41,365 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:51:42,075 - DEBUG - main: 39 - 200
+2024-02-26 16:51:42,075 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:51:42,075 - DEBUG - main: 41 - Время распознавания 0.7101342999958433
+2024-02-26 16:51:42,103 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:52:52,385 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:52:52,385 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:52:53,733 - DEBUG - main: 39 - 200
+2024-02-26 16:52:53,733 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:52:53,733 - DEBUG - main: 41 - Время распознавания 1.3470924000139348
+2024-02-26 16:52:53,740 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:52:54,427 - DEBUG - main: 39 - 200
+2024-02-26 16:52:54,428 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:52:54,428 - DEBUG - main: 41 - Время распознавания 0.6874764999956824
+2024-02-26 16:52:54,434 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:53:16,094 - DEBUG - main: 23 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:53:16,094 - DEBUG - main: 34 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:53:16,755 - DEBUG - main: 39 - 200
+2024-02-26 16:53:16,755 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:53:16,755 - DEBUG - main: 41 - Время распознавания 0.6610938999801874
+2024-02-26 16:53:16,762 - DEBUG - main: 34 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:53:17,443 - DEBUG - main: 39 - 200
+2024-02-26 16:53:17,444 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:53:17,444 - DEBUG - main: 41 - Время распознавания 0.6816735999891534
+2024-02-26 16:53:17,452 - DEBUG - main: 34 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:53:18,119 - DEBUG - main: 39 - 200
+2024-02-26 16:53:18,120 - DEBUG - main: 40 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:53:18,120 - DEBUG - main: 41 - Время распознавания 0.6677589000319131
+2024-02-26 16:53:18,125 - DEBUG - main: 34 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:53:30,099 - DEBUG - main: 24 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:53:30,099 - DEBUG - main: 35 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:53:30,755 - DEBUG - main: 40 - 200
+2024-02-26 16:53:30,755 - DEBUG - main: 41 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 33), 'bank_card': 'LEOBANK', 'pay': 1.0, 'balance': 2.4}
+2024-02-26 16:53:30,756 - DEBUG - main: 42 - Время распознавания 0.6568726999685168
+2024-02-26 16:53:30,756 - ERROR - main: 56 - Ошибка обработки файла atb1.jpg: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:53:30,883 - DEBUG - main: 35 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:53:31,563 - DEBUG - main: 40 - 200
+2024-02-26 16:53:31,563 - DEBUG - main: 41 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 31), 'bank_card': '409858******1820', 'pay': -9.0, 'balance': 0.4}
+2024-02-26 16:53:31,563 - DEBUG - main: 42 - Время распознавания 0.6805242999689654
+2024-02-26 16:53:31,563 - ERROR - main: 56 - Ошибка обработки файла atb2.jpg: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:53:31,669 - DEBUG - main: 35 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:53:32,353 - DEBUG - main: 40 - 200
+2024-02-26 16:53:32,353 - DEBUG - main: 41 - pay: {'response_date': datetime.datetime(2024, 2, 26, 13, 29), 'bank_card': 'Millién top up', 'pay': 1.4, 'balance': 9.4}
+2024-02-26 16:53:32,354 - DEBUG - main: 42 - Время распознавания 0.6845077000325546
+2024-02-26 16:53:32,354 - ERROR - main: 56 - Ошибка обработки файла atb3.jpg: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-02-26 16:53:32,468 - DEBUG - main: 35 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 16:56:01,875 - DEBUG - main: 24 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 16:56:01,875 - DEBUG - main: 35 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 16:56:03,140 - DEBUG - main: 40 - 400
+2024-02-26 16:56:03,141 - DEBUG - main: 41 - pay: Object of type datetime is not JSON serializable
+2024-02-26 16:56:03,141 - DEBUG - main: 42 - Время распознавания 1.2652300000190735
+2024-02-26 16:56:03,141 - ERROR - main: 56 - Ошибка обработки файла atb1.jpg: Expecting value: line 1 column 1 (char 0)
+2024-02-26 16:56:03,245 - DEBUG - main: 35 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 16:56:03,936 - DEBUG - main: 40 - 400
+2024-02-26 16:56:03,937 - DEBUG - main: 41 - pay: Object of type datetime is not JSON serializable
+2024-02-26 16:56:03,937 - DEBUG - main: 42 - Время распознавания 0.6921456000418402
+2024-02-26 16:56:03,937 - ERROR - main: 56 - Ошибка обработки файла atb2.jpg: Expecting value: line 1 column 1 (char 0)
+2024-02-26 16:56:04,042 - DEBUG - main: 35 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 16:56:04,716 - DEBUG - main: 40 - 400
+2024-02-26 16:56:04,716 - DEBUG - main: 41 - pay: Object of type datetime is not JSON serializable
+2024-02-26 16:56:04,716 - DEBUG - main: 42 - Время распознавания 0.6751089000026695
+2024-02-26 16:56:04,716 - ERROR - main: 56 - Ошибка обработки файла atb3.jpg: Expecting value: line 1 column 1 (char 0)
+2024-02-26 16:56:04,827 - DEBUG - main: 35 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 17:21:51,936 - DEBUG - main: 25 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 17:21:51,936 - DEBUG - main: 36 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 17:21:53,241 - DEBUG - main: 41 - 200
+2024-02-26 17:21:53,241 - DEBUG - main: 42 - pay: b'\x80\x04\x95v\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\rresponse_date\x94\x8c\x08datetime\x94\x8c\x08datetime\x94\x93\x94C\n\x07\xe8\x02\x1a\r!\x00\x00\x00\x00\x94\x85\x94R\x94\x8c\tbank_card\x94\x8c\x07LEOBANK\x94\x8c\x03pay\x94G?\xf0\x00\x00\x00\x00\x00\x00\x8c\x07balance\x94G@\x03333333u.'
+2024-02-26 17:21:53,241 - DEBUG - main: 43 - Время распознавания 1.3048108000075445
+2024-02-26 17:21:53,241 - ERROR - main: 57 - Ошибка обработки файла atb1.jpg: a bytes-like object is required, not 'str'
+2024-02-26 17:21:53,346 - DEBUG - main: 36 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 17:21:54,046 - DEBUG - main: 41 - 200
+2024-02-26 17:21:54,046 - DEBUG - main: 42 - pay: b'\x80\x04\x95\x7f\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\rresponse_date\x94\x8c\x08datetime\x94\x8c\x08datetime\x94\x93\x94C\n\x07\xe8\x02\x1a\r\x1f\x00\x00\x00\x00\x94\x85\x94R\x94\x8c\tbank_card\x94\x8c\x10409858******1820\x94\x8c\x03pay\x94G\xc0"\x00\x00\x00\x00\x00\x00\x8c\x07balance\x94G?\xd9\x99\x99\x99\x99\x99\x9au.'
+2024-02-26 17:21:54,046 - DEBUG - main: 43 - Время распознавания 0.7002288999501616
+2024-02-26 17:21:54,046 - ERROR - main: 57 - Ошибка обработки файла atb2.jpg: a bytes-like object is required, not 'str'
+2024-02-26 17:21:54,157 - DEBUG - main: 36 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 17:24:14,067 - DEBUG - main: 25 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 17:24:14,067 - DEBUG - main: 36 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 17:24:15,450 - DEBUG - main: 41 - 200
+2024-02-26 17:24:15,450 - DEBUG - main: 42 - pay: {"response_date": 1708943580.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 2.4}
+2024-02-26 17:24:15,450 - DEBUG - main: 43 - Время распознавания 1.3832363999681547
+2024-02-26 17:24:15,461 - DEBUG - main: 36 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 17:24:16,141 - DEBUG - main: 41 - 200
+2024-02-26 17:24:16,141 - DEBUG - main: 42 - pay: {"response_date": 1708943460.0, "bank_card": "409858******1820", "pay": -9.0, "balance": 0.4}
+2024-02-26 17:24:16,141 - DEBUG - main: 43 - Время распознавания 0.6801154999993742
+2024-02-26 17:24:16,147 - DEBUG - main: 36 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 17:24:16,794 - DEBUG - main: 41 - 200
+2024-02-26 17:24:16,794 - DEBUG - main: 42 - pay: {"response_date": 1708943340.0, "bank_card": "Milli\u00e9n top up", "pay": 1.4, "balance": 9.4}
+2024-02-26 17:24:16,795 - DEBUG - main: 43 - Время распознавания 0.6473440999980085
+2024-02-26 17:24:16,800 - DEBUG - main: 36 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 17:26:16,424 - DEBUG - main: 25 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 17:26:16,424 - DEBUG - main: 36 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 17:26:17,700 - DEBUG - main: 41 - 200
+2024-02-26 17:26:17,700 - DEBUG - main: 42 - pay: {"response_date": 1708943580.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 2.4}
+2024-02-26 17:26:17,700 - DEBUG - main: 43 - Время распознавания 1.2760070000076666
+2024-02-26 17:26:17,709 - DEBUG - main: 36 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 17:26:18,400 - DEBUG - main: 41 - 200
+2024-02-26 17:26:18,401 - DEBUG - main: 42 - pay: {"response_date": 1708943460.0, "bank_card": "409858******1820", "pay": -9.0, "balance": 0.4}
+2024-02-26 17:26:18,401 - DEBUG - main: 43 - Время распознавания 0.6923218000447378
+2024-02-26 17:26:18,411 - DEBUG - main: 36 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 17:26:19,073 - DEBUG - main: 41 - 200
+2024-02-26 17:26:19,075 - DEBUG - main: 42 - pay: {"response_date": 1708943340.0, "bank_card": "Milli\u00e9n top up", "pay": 1.4, "balance": 9.4}
+2024-02-26 17:26:19,075 - DEBUG - main: 43 - Время распознавания 0.6633661999949254
+2024-02-26 17:26:19,082 - DEBUG - main: 36 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 17:26:19,726 - DEBUG - main: 41 - 200
+2024-02-26 17:26:19,726 - DEBUG - main: 42 - pay: {"response_date": 1708943280.0, "bank_card": "Milli\u00e9n top up", "pay": 2.0, "balance": 5.0}
+2024-02-26 17:26:19,726 - DEBUG - main: 43 - Время распознавания 0.6449173999717459
+2024-02-26 17:26:19,733 - DEBUG - main: 36 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 17:26:20,392 - DEBUG - main: 41 - 200
+2024-02-26 17:26:20,392 - DEBUG - main: 42 - pay: {"response_date": 1708941480.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 3.0}
+2024-02-26 17:26:20,392 - DEBUG - main: 43 - Время распознавания 0.660050600010436
+2024-02-26 17:26:20,400 - DEBUG - main: 36 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 17:26:21,101 - DEBUG - main: 41 - 200
+2024-02-26 17:26:21,101 - DEBUG - main: 42 - pay: {"response_date": 1701777060.0, "bank_card": "409858******1820", "pay": -25.0, "balance": 0.0}
+2024-02-26 17:26:21,102 - DEBUG - main: 43 - Время распознавания 0.7019837999832816
+2024-02-26 17:26:21,108 - DEBUG - main: 36 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 17:26:21,748 - DEBUG - main: 41 - 200
+2024-02-26 17:26:21,748 - DEBUG - main: 42 - pay: {"response_date": 1701435540.0, "bank_card": "IBA MOBILE", "pay": 25.0, "balance": 25.0}
+2024-02-26 17:26:21,749 - DEBUG - main: 43 - Время распознавания 0.6403680999646895
+2024-02-26 17:26:21,755 - DEBUG - main: 61 - Общее время: 5.330582199967466
+2024-02-26 17:26:21,755 - DEBUG - main: 62 - ----
+2024-02-26 17:26:22,266 - DEBUG - main: 25 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 17:26:22,266 - DEBUG - main: 36 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 17:26:23,535 - DEBUG - main: 41 - 200
+2024-02-26 17:26:23,536 - DEBUG - main: 42 - pay: {"response_date": 1708943580.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 2.4}
+2024-02-26 17:26:23,536 - DEBUG - main: 43 - Время распознавания 1.2695913000497967
+2024-02-26 17:26:23,543 - DEBUG - main: 36 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 17:26:24,211 - DEBUG - main: 41 - 200
+2024-02-26 17:26:24,211 - DEBUG - main: 42 - pay: {"response_date": 1708943460.0, "bank_card": "409858******1820", "pay": -9.0, "balance": 0.4}
+2024-02-26 17:26:24,211 - DEBUG - main: 43 - Время распознавания 0.6680163000128232
+2024-02-26 17:26:24,219 - DEBUG - main: 36 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 17:26:24,853 - DEBUG - main: 41 - 200
+2024-02-26 17:26:24,854 - DEBUG - main: 42 - pay: {"response_date": 1708943340.0, "bank_card": "Milli\u00e9n top up", "pay": 1.4, "balance": 9.4}
+2024-02-26 17:26:24,854 - DEBUG - main: 43 - Время распознавания 0.6356630999944173
+2024-02-26 17:26:24,860 - DEBUG - main: 36 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 17:26:25,494 - DEBUG - main: 41 - 200
+2024-02-26 17:26:25,495 - DEBUG - main: 42 - pay: {"response_date": 1708943280.0, "bank_card": "Milli\u00e9n top up", "pay": 2.0, "balance": 5.0}
+2024-02-26 17:26:25,495 - DEBUG - main: 43 - Время распознавания 0.6341508000041358
+2024-02-26 17:26:25,501 - DEBUG - main: 36 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 17:26:26,136 - DEBUG - main: 41 - 200
+2024-02-26 17:26:26,136 - DEBUG - main: 42 - pay: {"response_date": 1708941480.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 3.0}
+2024-02-26 17:26:26,137 - DEBUG - main: 43 - Время распознавания 0.6355861999909393
+2024-02-26 17:26:26,143 - DEBUG - main: 36 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 17:27:22,975 - DEBUG - main: 25 - [WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb1.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb2.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb3.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb4.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb5.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb6.jpg'), WindowsPath('D:/Dev/Freelance/Deposite-grabber-sender/adb_screenshots/atb7.jpg')]
+2024-02-26 17:27:22,975 - DEBUG - main: 36 - Отправляем ('atb1.jpg', 161349, True)
+2024-02-26 17:27:24,232 - DEBUG - main: 41 - 200
+2024-02-26 17:27:24,232 - DEBUG - main: 42 - pay: {"response_date": 1708943580.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 2.4}
+2024-02-26 17:27:24,233 - DEBUG - main: 43 - Время распознавания 1.2586930000106804
+2024-02-26 17:27:24,254 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:24,254 - DEBUG - main: 36 - Отправляем ('atb2.jpg', 215803, True)
+2024-02-26 17:27:25,721 - DEBUG - main: 41 - 200
+2024-02-26 17:27:25,722 - DEBUG - main: 42 - pay: {"response_date": 1708943460.0, "bank_card": "409858******1820", "pay": -9.0, "balance": 0.4}
+2024-02-26 17:27:25,722 - DEBUG - main: 43 - Время распознавания 1.46754130005138
+2024-02-26 17:27:25,743 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:25,743 - DEBUG - main: 36 - Отправляем ('atb3.jpg', 190189, True)
+2024-02-26 17:27:26,400 - DEBUG - main: 41 - 200
+2024-02-26 17:27:26,400 - DEBUG - main: 42 - pay: {"response_date": 1708943340.0, "bank_card": "Milli\u00e9n top up", "pay": 1.4, "balance": 9.4}
+2024-02-26 17:27:26,400 - DEBUG - main: 43 - Время распознавания 0.6575420000008307
+2024-02-26 17:27:26,417 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:26,418 - DEBUG - main: 36 - Отправляем ('atb4.jpg', 195182, True)
+2024-02-26 17:27:27,075 - DEBUG - main: 41 - 200
+2024-02-26 17:27:27,076 - DEBUG - main: 42 - pay: {"response_date": 1708943280.0, "bank_card": "Milli\u00e9n top up", "pay": 2.0, "balance": 5.0}
+2024-02-26 17:27:27,076 - DEBUG - main: 43 - Время распознавания 0.657470399979502
+2024-02-26 17:27:27,091 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:27,092 - DEBUG - main: 36 - Отправляем ('atb5.jpg', 161848, True)
+2024-02-26 17:27:27,746 - DEBUG - main: 41 - 200
+2024-02-26 17:27:27,747 - DEBUG - main: 42 - pay: {"response_date": 1708941480.0, "bank_card": "LEOBANK", "pay": 1.0, "balance": 3.0}
+2024-02-26 17:27:27,747 - DEBUG - main: 43 - Время распознавания 0.6557632000185549
+2024-02-26 17:27:27,766 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:27,767 - DEBUG - main: 36 - Отправляем ('atb6.jpg', 223799, True)
+2024-02-26 17:27:29,082 - DEBUG - main: 41 - 200
+2024-02-26 17:27:29,082 - DEBUG - main: 42 - pay: {"response_date": 1701777060.0, "bank_card": "409858******1820", "pay": -25.0, "balance": 0.0}
+2024-02-26 17:27:29,082 - DEBUG - main: 43 - Время распознавания 1.3158377999789082
+2024-02-26 17:27:29,101 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:29,101 - DEBUG - main: 36 - Отправляем ('atb7.jpg', 187920, True)
+2024-02-26 17:27:29,737 - DEBUG - main: 41 - 200
+2024-02-26 17:27:29,737 - DEBUG - main: 42 - pay: {"response_date": 1701435540.0, "bank_card": "IBA MOBILE", "pay": 25.0, "balance": 25.0}
+2024-02-26 17:27:29,737 - DEBUG - main: 43 - Время распознавания 0.6362687000073493
+2024-02-26 17:27:29,754 - DEBUG - main: 51 - Скрин удален
+2024-02-26 17:27:29,755 - DEBUG - main: 61 - Общее время: 6.780729899997823
+2024-02-26 17:27:29,755 - DEBUG - main: 62 - ----
+2024-02-26 17:27:30,258 - DEBUG - main: 25 - []
+2024-02-26 17:27:30,258 - DEBUG - main: 61 - Общее время: 0.0004594000056385994
+2024-02-26 17:27:30,258 - DEBUG - main: 62 - ----
+2024-02-26 17:27:30,764 - DEBUG - main: 25 - []
+2024-02-26 17:27:30,764 - DEBUG - main: 61 - Общее время: 0.00044730002991855145
+2024-02-26 17:27:30,764 - DEBUG - main: 62 - ----
+2024-02-26 17:27:31,271 - DEBUG - main: 25 - []
+2024-02-26 17:27:31,271 - DEBUG - main: 61 - Общее время: 0.0004553000326268375
+2024-02-26 17:27:31,271 - DEBUG - main: 62 - ----
+2024-02-26 17:27:31,775 - DEBUG - main: 25 - []
+2024-02-26 17:27:31,775 - DEBUG - main: 61 - Общее время: 0.00046030001249164343
+2024-02-26 17:27:31,775 - DEBUG - main: 62 - ----
+2024-02-26 17:27:32,276 - DEBUG - main: 25 - []
+2024-02-26 17:27:32,276 - DEBUG - main: 61 - Общее время: 0.00044540001545101404
+2024-02-26 17:27:32,276 - DEBUG - main: 62 - ----
+2024-02-26 17:27:32,779 - DEBUG - main: 25 - []
+2024-02-26 17:27:32,779 - DEBUG - main: 61 - Общее время: 0.0004749000072479248
+2024-02-26 17:27:32,779 - DEBUG - main: 62 - ----
+2024-02-26 17:27:33,288 - DEBUG - main: 25 - []
+2024-02-26 17:27:33,288 - DEBUG - main: 61 - Общее время: 0.00044739997247233987
+2024-02-26 17:27:33,288 - DEBUG - main: 62 - ----
+2024-02-26 17:27:33,795 - DEBUG - main: 25 - []
+2024-02-26 17:27:33,795 - DEBUG - main: 61 - Общее время: 0.0004358000005595386
+2024-02-26 17:27:33,795 - DEBUG - main: 62 - ----
+2024-02-26 17:27:34,305 - DEBUG - main: 25 - []
+2024-02-26 17:27:34,305 - DEBUG - main: 61 - Общее время: 0.0004466999671421945
+2024-02-26 17:27:34,305 - DEBUG - main: 62 - ----
+2024-02-26 17:27:34,811 - DEBUG - main: 25 - []
+2024-02-26 17:27:34,811 - DEBUG - main: 61 - Общее время: 0.00043890002416446805
+2024-02-26 17:27:34,811 - DEBUG - main: 62 - ----
+2024-02-26 17:27:35,318 - DEBUG - main: 25 - []
+2024-02-26 17:27:35,318 - DEBUG - main: 61 - Общее время: 0.0003834000090137124
+2024-02-26 17:27:35,318 - DEBUG - main: 62 - ----
