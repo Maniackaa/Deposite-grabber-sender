@@ -9,6 +9,7 @@ credentials.json
 
 # Distribution / packaging
 .Python
+/logs
 build/
 develop-eggs/
 dist/

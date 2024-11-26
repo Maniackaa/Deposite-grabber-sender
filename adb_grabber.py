@@ -34,39 +34,54 @@ def get_file_list(directory, adb_device):
 
 
 def main():
-
+    small_file_count = 0
     while True:
         # adb_client = AdbClient(host="host.docker.internal", port=5037)
         # adb_client = AdbClient(host="127.0.0.1", port=5037)
         adb_client = AdbClient(host=os.getenv('HOST'), port=5037)
         adb_devices = adb_client.device_list()
-        PHONES = conf.adb.M10_PHONES
-        for adb_device in adb_devices:
+        if adb_devices:
+            adb_device = adb_devices[0]
             device_name = adb_device.info.get('serialno')
             logger.info(f'Подключено: {device_name}')
-            if device_name in PHONES:
-                logger.info('Телефон из списка M10')
-                try:
-                    data = get_file_list(SCREEN_FOLDER.as_posix(), adb_device)
-                    logger.debug(f'Количество скринов: {len(data)}')
-                    logger.debug(str(data))
-                    if data:
-                        file, size = data[0][0], data[0][1]
-                        file_path = SCREEN_FOLDER / file
-                        if size > 0:
-                            logger.debug(f'Скачиваем файл {file} {size} кб')
-                            file_name = file.replace('.jpg', f'_from_{device_name}.jpg')
-                            target_path = TARGET_DIR / file_name
-                            downloaded = adb_device.sync.pull(file_path.as_posix(), target_path.as_posix())
-                            if downloaded:
-                                logger.debug(f'Удаляем файл {file}: {downloaded}')
-                                adb_device.shell(f'rm {file_path.as_posix()}')
-                    time.sleep(0.5)
-                except Exception as err:
-                    logger.debug(err, exc_info=True)
-                    time.sleep(5)
+        else:
+            time.sleep(5)
+            continue
+        try:
+            data = get_file_list(SCREEN_FOLDER.as_posix(), adb_device)
+            logger.debug(f'Количество скринов: {len(data)}')
+            logger.debug(str(data))
+            if data:
+                file, size = data[0][0], data[0][1]
+                file_path = SCREEN_FOLDER / file
+                if size > 150000:
+                    small_file_count = 0
+                    logger.debug(f'Скачиваем файл {file} {size} кб')
+                    file_name = file.replace('.jpg', f'_from_{device_name}.jpg')
+                    # target_path_copy = TARGET_DIR / 'Copy' / file_name
+                    # downloaded_copy = adb_device.sync.pull(file_path.as_posix(), target_path_copy.as_posix())
+                    target_path = TARGET_DIR / file_name
+                    downloaded = adb_device.sync.pull(file_path.as_posix(), target_path.as_posix())
+                    if downloaded:
+                        logger.debug(f'Удаляем файл {file}: {downloaded}')
+                        adb_device.shell(f'rm {file_path.as_posix()}')
+                else:
+                    # Если маленький файл
+                    logger.debug(f'маленький файл {file_path}')
+                    if small_file_count > 3:
+                        adb_device.shell(f'rm {file_path.as_posix()}')
+                        logger.debug('Удален маленький файл')
+                        small_file_count = 0
+                    else:
+                        small_file_count += 1
+                        logger.debug(f'small_file_count: {small_file_count}')
             else:
-                time.sleep(5)
+                time.sleep(3)
+            time.sleep(0.5)
+        except Exception as err:
+            logger.debug(err, exc_info=True)
+            time.sleep(5)
+
 
 if __name__ == '__main__':
     main()
